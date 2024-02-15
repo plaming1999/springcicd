@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class ApiController {
 	@GetMapping("/get")
 	public String demo() throws InterruptedException {
-		Thread.sleep(3000);
-		return "result from get api";
+		 Thread.sleep(3000);
+		 return "result from get api";
 	}
 	@PostMapping("/post")
 	public String post() {
